@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+.headerEscuro{
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    border-bottom: 5px solid white;
+    margin: 0;
+    z-index: 9999;
+    padding: 0;
+}
+.headerClaro{
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    border-bottom: 5px solid black;
+    margin: 0;
+    z-index: 9999;
+    padding: 0;
+}
+#imgPrincipal{
+    position: relative;
+    margin-top: 9vh;
+    width: 100%;
+}
+
+#svgMode{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 7vh;
+}
+.menuEscuro img{
+    height: 8vh;
+}
+.menuClaro img{
+    height: 8vh;
+}
+.menu{
+    position: fixed;
+    font-family: sans-serif;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: row;
+    background-color: black;
+}
+
+.menuEscuro{
+    position: fixed;
+    font-family: sans-serif;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: row;
+    background-color: black;
+}
+
+.menuClaro{
+    position: fixed;
+    font-family: sans-serif;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: row;
+    background-color: white;
+}
+
+.table{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+}
+
+
+.menuEscuro a {
+    width: auto;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin: auto 5vw;
+    display: flex;
+    text-decoration: none;
+}
+
+.menuClaro a {
+    width: auto;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    margin: auto 5vw;
+    display: flex;
+    text-decoration: none;
+}
+
+.menuEscuro a:hover{
+    border-bottom: 5px solid white;
+}
+
+.menuClaro a:hover{
+    border-bottom: 5px solid black;
+}
+
+.sobreEscuro{
+    position: relative;
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 80vw;
+    margin: 2vw;
+    color: white
+}
+
+.sobreEscuro hr{
+    margin: 0;
+    width: 50vw;
+    height: .5vh;
+    background-color: black;
+}
+
+.sobreEscuro h1{
+    position: relative;
+    margin: 0;
+    color: white;
+}
+
+.sobreEscuro table p{
+    width: 50vw;
+    font-family: sans-serif;
+    margin-right: auto;
+}
+
+.sobreEscuro img{
+    
+    margin-left: 8vw;
+    width: 25vw;
+}
+
+.sobreEscuro figure{
+    height: auto;
+    width: 25vw;
+}
+
+
+.futuroClaro{
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 95.8%;
+    padding: 2vw;
+    background-color: white;
+    color: black;
+}
+
+.futuroClaro hr{
+    margin-right: 10vw;
+    margin-left: auto;
+    width: 50vw;
+    height: .5vh;
+    background-color: white;
+}
+
+.futuroClaro h1{
+    width: 85vw;
+    text-align: right;
+}
+
+.futuroClaro table p{
+    width: 53.5vw;
+    text-align: right;
+    font-family: sans-serif;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.futuroClaro img{
+    transform: translateX(-5em);
+    width: 25vw;
+}
+
+
+.futuroClaro figure{
+    height: auto;
+    width: 25vw;
+}
+
+.sobreClaro{
+    position: relative;
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 80vw;
+    margin: 2vw;
+    color: black;
+}
+
+.sobreClaro hr{
+    margin: 0;
+    width: 50vw;
+    height: .5vh;
+    background-color: white;
+}
+
+.sobreClaro h1{
+    position: relative;
+    margin: 0;
+    color: black;
+}
+
+.sobreClaro table p{
+    width: 50vw;
+    font-family: sans-serif;
+    margin-right: auto;
+}
+
+.zoomIn{
+    
+    margin-left: 8vw;
+    width: 30vw;
+}
+.outZoom{
+    width: 25vw;
+    margin-left: 8vw;
+
+}
+
+.sobreClaro figure{
+    height: auto;
+    width: 25vw;
+}
+
+
+.futuroEscuro{
+    display: block;
+    align-items: center;
+    height: auto;
+    width: 95.8%;
+    padding: 2vw;
+    background-color: black;
+    color: white;
+}
+
+.futuroEscuro hr{
+    margin-right: 10vw;
+    margin-left: auto;
+    width: 50vw;
+    height: .5vh;
+    background-color: black;
+}
+
+.futuroEscuro h1{
+    width: 85vw;
+    text-align: right;
+}
+
+.futuroEscuro table p{
+    width: 53.5vw;
+    text-align: right;
+    font-family: sans-serif;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.futuroEscuro img{
+    transform: translateX(-5em);
+    width: 25vw;
+}
+
+
+.futuroEscuro figure{
+    height: auto;
+    width: 25vw;
+}
+
+.claro{
+    background-color: white;
+}
+
+.escuro{
+    background-color: black;
+}
